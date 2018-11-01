@@ -71,13 +71,13 @@ To find patterns in the HTML data, try "finding" specific information you saw on
 Below are screenshots of the highlighted code we would like to extract:
 
 HTML code containing the product id
-![](prodid.jpg)
+![](prodid.JPG)
 
 HTML code containing availbility info
-![](avail.jpg)
+![](avail.JPG)
 
 HTML code containing web address and product name
-![](webaddy.jpg)
+![](webaddy.JPG)
 
 ## Section 2. Extracting HTML Data Using Product ID
 
