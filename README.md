@@ -79,6 +79,22 @@ HTML code containing availbility info
 HTML code containing web address and product name
 ![](webaddy.jpg)
 
+## Section 2. Extracting HTML Data Using Product ID
+
+### Setting Up Libraries
+
+```python
+# setup libraries
+# pip is a package management system
+import pip
+pip.main(["install", "bs4"])
+# beautifulsoup parses HTML
+from bs4 import BeautifulSoup
+pip.main(["install", "requests"])
+# requests, in this case, helps us get HTML from URL
+import requests
+```
+
 
 
 
