@@ -37,7 +37,7 @@ For the purposes of this project, we will be using [this](https://www.amazon.com
 
 ![](wishlist.JPG)
 
-### The Mini Plan
+### We Need To:
 
 1. Decide what information to extract
 2. Determine how to extract desired information from HTML data
@@ -67,6 +67,19 @@ To find patterns in the HTML data, try "finding" specific information you saw on
 - Product ID consistently shows up 71 times for each item. 
 (From observing individual listings, we can determine that the product ID comes after "coliid" in the web address.)
 - The data-itemId tag shows up 3 times per item.
+
+Below are screenshots of the highlighted code we would like to extract:
+
+HTML code containing the product id
+![](prodid.jpg)
+
+HTML code containing availbility info
+![](avail.jpg)
+
+HTML code containing web address and product name
+![](webaddy.jpg)
+
+
 
 
 
