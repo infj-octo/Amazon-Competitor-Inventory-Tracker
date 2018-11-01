@@ -17,13 +17,62 @@ For this script to work, you must add your competitors' products to your Amazon 
 
 ----------------------------------
 
-### UPDATE 10/26/2018 -------
+### **UPDATE 10/26/2018** -------
 
 Amazon has changed the wishlist formatting, so that the inventory data does not show. As a result, this script can no longer return inventory data.
 
 It is possible to adapt the script to return other pieces of information available through the wishlist page. 
 
 ---------------------------------
+### The Action Plan
+
+#### Section 1. Observe HTML of wishlist for clues on pattern extraction
+#### Section 2. Extracting HTML data
+#### Section 3. Organize data using vectors, polish the data (& if possible, systematize the process of data cleaning for reproducible results)
+#### Section 4. Store data in spreadsheet
+
+# Section 1. Observe HTML for Patterns
+
+For the purposes of this project, we will be using [this](https://www.amazon.com/hz/wishlist/ls/18UQZ34U5ANT0?&sort=default) public wishlist. See below. 
+
+![](wishlist.JPG)
+
+### The Mini Plan
+
+1. Decide what information to extract
+2. Determine how to extract desired information from HTML data
+
+### 1. Deciding What Information To Extract
+
+We observe the webpage, taking note of the information types, such as price, product name, stock status. 
+
+- 14 items, after full loading.
+- Stock/availability information shows as "In Stock", "Only X left in stock--order soon", "Out Of Stock", "Usually ships in X days"
+
+It would be useful to extract:
+
+- the website link
+- product id
+- product name
+- inventory information
+
+### 2. Determine How To Extract
+
+Look at the HTML data to look for patterns. You can find the HTML data by right clicking the page & view page source.
+
+To find patterns in the HTML data, try "finding" specific information you saw on the webpage. For example, if you saw a product with inventory information "Usually ships in 5 to 7 days", find that in the HTML data. Try to find when each products' HTML data starts and ends. This is useful because we can then extract these lines in a organized manner for further polishing. 
+
+#### Observations of each product's HTML data
+
+- Product ID consistently shows up 71 times for each item. 
+(From observing individual listings, we can determine that the product ID comes after "coliid" in the web address.)
+- The data-itemId tag shows up 3 times per item.
+
+
+
+
+
+
 
 
 
