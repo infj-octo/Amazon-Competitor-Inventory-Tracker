@@ -4,7 +4,8 @@
 
 This script will create a spreadsheet of the competiting products that are currently "Out Of Stock" or low in stock, like shown below.
 
-![low.JPG](attachment:low.JPG)
+![](attachment:low.JPG)
+![](low.JPG)
 
 ### Why is this useful? 
 
